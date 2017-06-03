@@ -1,5 +1,8 @@
+package ru.googlesearch.main;
+
 import com.codeborne.selenide.*;
 import org.junit.Test;
+import ru.googlesearch.utils.Page;
 
 public class searchGoogle {
 
