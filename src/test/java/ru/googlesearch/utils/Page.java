@@ -17,6 +17,7 @@ public class Page {
     public static final String SearchElementsText = ".srg .g";
     public static final String SearchElementsImages = ".irc_ho";
     public static final String SearchResultImagesElements = ".rg_ic.rg_i";
+    public static final String PROP_FILE = "/testdata.properties";
 
     public Page open() {
         Selenide.open(loadProperty("GOOGLE"));
